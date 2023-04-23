@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./SignUpForm.css";
 
 const SignUpForm = () => {
   const [formType, setFormType] = useState('user');
@@ -8,8 +9,13 @@ const SignUpForm = () => {
   };
 
   return (
-    <div>
-      <h1>Form Component</h1>
+    <div
+    name="parentContainer"
+    >
+    <div
+      name="secondDiv"
+    >
+      <h1 name="signUpLabel">Sign Up Form</h1>
       <button onClick={() => handleButtonClick('user')}>User</button>
       <button onClick={() => handleButtonClick('vendor')}>Vendor</button>
 
@@ -46,6 +52,7 @@ const SignUpForm = () => {
 
         <button type="submit">Submit</button>
       </form>
+    </div>
     </div>
   );
 };

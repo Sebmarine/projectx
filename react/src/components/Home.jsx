@@ -22,7 +22,7 @@ const Home = () => {
           </p>
           <div>
             <Link
-              to="portfolio"
+              to="/signup"
               smooth
               duration={500}
               className=" group text-white w-fit px-6 py-3 my-2 mx-auto sm:mx-0 text-center flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer "
