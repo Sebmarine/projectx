@@ -1,9 +1,11 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
+// import About from "./components/About";
+// import Contact from "./components/Contact";
+// import Experience from "./components/Experience";
+// import Portfolio from "./components/Portfolio";
 import Home from "./components/Home";
+import HomePage from "./components/HomePage";
 import NavBar from "./components/NavBar";
-import Portfolio from "./components/Portfolio";
+
 import SocialLinks from "./components/SocialLinks";
 
 function App() {
@@ -11,10 +13,11 @@ function App() {
     <div className="App">
       <NavBar />
       <Home />
-      <About />
+      <HomePage />
+      {/* <About />
       <Portfolio />
       <Experience />
-      <Contact />
+      <Contact /> */}
 
       <SocialLinks />
     </div>

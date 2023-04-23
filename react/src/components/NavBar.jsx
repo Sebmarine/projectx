@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import AnimatedSebastian from "./AnimatedSebastian";
+import AnimatedFindUr from "./AnimatedFindUr";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -9,23 +9,23 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: "home",
+      link: "explore",
     },
     {
       id: 2,
-      link: "about",
+      link: "how it works",
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "testimonials",
     },
     {
       id: 4,
-      link: "experience",
+      link: "sign up",
     },
     {
       id: 5,
-      link: "contact",
+      link: "login",
     },
   ];
 
@@ -41,7 +41,7 @@ const NavBar = () => {
           duration={500}
           className="text-5xl cursor-pointer ml-2"
         >
-          <AnimatedSebastian />
+          <AnimatedFindUr />
         </Link>
       </div>
 
