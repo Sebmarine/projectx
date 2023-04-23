@@ -1,26 +1,21 @@
-// import About from "./components/About";
-// import Contact from "./components/Contact";
-// import Experience from "./components/Experience";
-// import Portfolio from "./components/Portfolio";
-import Home from "./components/Home";
-import HomePage from "./components/HomePage";
-import NavBar from "./components/NavBar";
-// import Footer from "./components/Footer";
+// Need to move these to "Main Page"
+// import Home from "./components/Home";
+// import HomePage from "./components/HomePage";
+// import NavBar from "./components/NavBar";
 
-// import SocialLinks from "./components/SocialLinks";
+import MainPage from "./components/MainPage";
+import SignUpForm from "./components/SignUpForm";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Home />
-      <HomePage />
-      {/* <About />
-      <Portfolio />
-      <Experience />
-      <Contact /> */}
-
-      {/* <Footer /> */}
+      <Router>
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/signup" element={<SignUpForm />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
