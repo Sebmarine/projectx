@@ -1,20 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
 .home-page {
   max-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
-  font-family: Arial, sans-serif;
+  padding: 4rem 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  text-align: center;
+  /* background-image: url("../../public/background.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .home-page h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #2c3e50;
+  font-size: 3rem;
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 
 .home-page h2 {
   font-size: 1.5rem;
-  color: #34495e;
+  font-weight: 300;
   margin-bottom: 1.5rem;
 }
 
@@ -22,12 +33,18 @@
   list-style-type: none;
   padding: 0;
   margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .home-page li {
   font-size: 1rem;
+  font-weight: 300;
   line-height: 1.5;
   margin-bottom: 0.5rem;
+  flex: 0 1 calc(50% - 1rem);
 }
 
 .home-page li::before {
@@ -39,6 +56,7 @@
 
 .home-page button {
   font-size: 1rem;
+  font-weight: 600;
   color: #fff;
   background-color: #3498db;
   border: none;
@@ -46,6 +64,7 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin-bottom: 2rem;
 }
 
 .home-page button:hover {
@@ -55,6 +74,9 @@
 .home-page blockquote {
   font-size: 1rem;
   font-style: italic;
-  color: #7f8c8d;
-  margin-top: 2rem;
+  font-weight: 300;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  border-radius: 5px;
 }
