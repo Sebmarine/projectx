@@ -1,0 +1,120 @@
+body {
+    background-image: linear-gradient(to bottom, #2d3748, #000000, #000000);
+    height: 100vh;
+    margin: 0rem;
+    overflow: hidden;
+    color:white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .signUpLabel{
+    justify-content: center;
+    align-self: center;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    50% {
+      transform: scale(1, 1.5);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .secondDiv{
+    width: 50%; /* Adjust the width according to your needs */
+    height: 50%; /* Adjust the height according to your needs */
+    justify-items: center;
+    align-items: center;
+  }
+
+  .parentContainer {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100vh; /* Set the container height to cover the full viewport height */
+  }
+
+  #blob {
+    background-color: white;
+    height: 34vmax;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: linear-gradient(to right, aquamarine, mediumpurple);
+    animation: rotate 20s infinite;
+    opacity: 0.8;
+  }
+  
+  #blur {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    backdrop-filter: blur(12vmax);
+  }
+  
+  /* Form styles */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    color:white
+  }
+  
+  form div {
+    margin-bottom: 1rem;
+  }
+  
+  form label {
+    /* display: block; */
+    margin-bottom: 0.5rem;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  button[type="submit"] {
+    background-color: mediumpurple;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    
+  }
+  
+  button[type="submit"]:hover {
+    background-color: aquamarine;
+  }
