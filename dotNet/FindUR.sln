@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindUR", "FindUR.csproj", "{4916A1F0-E95A-435B-81AD-5F15D4F609AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindURMVC", "..\FindURMVC\FindURMVC.csproj", "{01032078-C671-4618-B5DD-8ECE015CA943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindURAPI", "..\FindURAPI\FindURAPI.csproj", "{F31A9DF9-86AB-4624-890C-231EDA3E2A29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4916A1F0-E95A-435B-81AD-5F15D4F609AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4916A1F0-E95A-435B-81AD-5F15D4F609AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4916A1F0-E95A-435B-81AD-5F15D4F609AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4916A1F0-E95A-435B-81AD-5F15D4F609AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01032078-C671-4618-B5DD-8ECE015CA943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01032078-C671-4618-B5DD-8ECE015CA943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01032078-C671-4618-B5DD-8ECE015CA943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01032078-C671-4618-B5DD-8ECE015CA943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31A9DF9-86AB-4624-890C-231EDA3E2A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31A9DF9-86AB-4624-890C-231EDA3E2A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31A9DF9-86AB-4624-890C-231EDA3E2A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31A9DF9-86AB-4624-890C-231EDA3E2A29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3230DFB-4B16-43F8-90AB-EA45CE5821BC}
+	EndGlobalSection
+EndGlobal
