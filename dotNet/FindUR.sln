@@ -9,6 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindURMVC", "..\FindURMVC\F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindURAPI", "..\FindURAPI\FindURAPI.csproj", "{F31A9DF9-86AB-4624-890C-231EDA3E2A29}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindUR.Data", "..\..\..\..\SF.Code\MiVet\dotnet\Sabio.Data\FindUR.Data.csproj", "{106BABC4-FF7F-4FFA-8F50-5ABEF86B021B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindUR.Models", "..\..\..\..\SF.Code\MiVet\dotnet\Sabio.Models\FindUR.Models.csproj", "{846A5DE4-6062-416E-8472-A10F38A6442F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindUR.Services", "..\..\..\..\SF.Code\MiVet\dotnet\Sabio.Services\FindUR.Services.csproj", "{D04183B7-75AA-4A37-BF35-C38CC9DDEE72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindUR.Web.Api", "..\..\..\..\SF.Code\MiVet\dotnet\Sabio.Web.Api\FindUR.Web.Api.csproj", "{4100E584-0E35-4D81-BFAF-0614C0D0B726}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindUR.Web.Core", "..\..\..\..\SF.Code\MiVet\dotnet\Sabio.Web.Core\FindUR.Web.Core.csproj", "{DB01B3E5-77F4-4421-91D9-B3E656289D19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindUR.Web.Models", "..\..\..\..\SF.Code\MiVet\dotnet\Sabio.Web.Models\FindUR.Web.Models.csproj", "{9981095A-0FD6-432F-A34D-CC8EA647C09F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +39,30 @@ Global
 		{F31A9DF9-86AB-4624-890C-231EDA3E2A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F31A9DF9-86AB-4624-890C-231EDA3E2A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F31A9DF9-86AB-4624-890C-231EDA3E2A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106BABC4-FF7F-4FFA-8F50-5ABEF86B021B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106BABC4-FF7F-4FFA-8F50-5ABEF86B021B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106BABC4-FF7F-4FFA-8F50-5ABEF86B021B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106BABC4-FF7F-4FFA-8F50-5ABEF86B021B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{846A5DE4-6062-416E-8472-A10F38A6442F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846A5DE4-6062-416E-8472-A10F38A6442F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846A5DE4-6062-416E-8472-A10F38A6442F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846A5DE4-6062-416E-8472-A10F38A6442F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D04183B7-75AA-4A37-BF35-C38CC9DDEE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04183B7-75AA-4A37-BF35-C38CC9DDEE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04183B7-75AA-4A37-BF35-C38CC9DDEE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04183B7-75AA-4A37-BF35-C38CC9DDEE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4100E584-0E35-4D81-BFAF-0614C0D0B726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4100E584-0E35-4D81-BFAF-0614C0D0B726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4100E584-0E35-4D81-BFAF-0614C0D0B726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4100E584-0E35-4D81-BFAF-0614C0D0B726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB01B3E5-77F4-4421-91D9-B3E656289D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB01B3E5-77F4-4421-91D9-B3E656289D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB01B3E5-77F4-4421-91D9-B3E656289D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB01B3E5-77F4-4421-91D9-B3E656289D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9981095A-0FD6-432F-A34D-CC8EA647C09F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9981095A-0FD6-432F-A34D-CC8EA647C09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9981095A-0FD6-432F-A34D-CC8EA647C09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9981095A-0FD6-432F-A34D-CC8EA647C09F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

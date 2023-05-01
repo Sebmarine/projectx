@@ -1,0 +1,12 @@
+C:\SF.Code\MiVet\dotnet\Sabio.Data\bin\Debug\net6.0\Sabio.Data.deps.json
+C:\SF.Code\MiVet\dotnet\Sabio.Data\bin\Debug\net6.0\Sabio.Data.dll
+C:\SF.Code\MiVet\dotnet\Sabio.Data\bin\Debug\net6.0\Sabio.Data.pdb
+C:\SF.Code\MiVet\dotnet\Sabio.Data\obj\Debug\net6.0\Sabio.Data.csproj.AssemblyReference.cache
+C:\SF.Code\MiVet\dotnet\Sabio.Data\obj\Debug\net6.0\Sabio.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\SF.Code\MiVet\dotnet\Sabio.Data\obj\Debug\net6.0\Sabio.Data.AssemblyInfoInputs.cache
+C:\SF.Code\MiVet\dotnet\Sabio.Data\obj\Debug\net6.0\Sabio.Data.AssemblyInfo.cs
+C:\SF.Code\MiVet\dotnet\Sabio.Data\obj\Debug\net6.0\Sabio.Data.csproj.CoreCompileInputs.cache
+C:\SF.Code\MiVet\dotnet\Sabio.Data\obj\Debug\net6.0\Sabio.Data.dll
+C:\SF.Code\MiVet\dotnet\Sabio.Data\obj\Debug\net6.0\refint\Sabio.Data.dll
+C:\SF.Code\MiVet\dotnet\Sabio.Data\obj\Debug\net6.0\Sabio.Data.pdb
+C:\SF.Code\MiVet\dotnet\Sabio.Data\obj\Debug\net6.0\ref\Sabio.Data.dll

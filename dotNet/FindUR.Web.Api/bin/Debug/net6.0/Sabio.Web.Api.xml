@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sabio.Web.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Sabio.Web.Api.Controllers.PingApiController">
+            <summary>
+            This controller is not required for the application to work. 
+            You could remove it but it serves as a simple entry point for development
+            </summary>
+        </member>
+        <member name="T:Sabio.Web.Api.StartUp.DependencyInjection.AConfigureServices">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
