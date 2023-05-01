@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "JSuPaqh818zHXEhg7XtW8zrS4D2LgnjAXOVJE5q22XmPbv2ikXkxcoUh6VSPM/yZW2dKHfFXdQHmW8PvAs1uww==",
+  "success": true,
+  "projectFilePath": "C:\\SF.Code\\MiVet\\dotnet\\Sabio.Web.Models\\FindUR.Web.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cbass\\.nuget\\packages\\google.apis\\1.57.0\\google.apis.1.57.0.nupkg.sha512",
+    "C:\\Users\\cbass\\.nuget\\packages\\google.apis.analyticsreporting.v4\\1.57.0.2484\\google.apis.analyticsreporting.v4.1.57.0.2484.nupkg.sha512",
+    "C:\\Users\\cbass\\.nuget\\packages\\google.apis.auth\\1.57.0\\google.apis.auth.1.57.0.nupkg.sha512",
+    "C:\\Users\\cbass\\.nuget\\packages\\google.apis.core\\1.57.0\\google.apis.core.1.57.0.nupkg.sha512",
+    "C:\\Users\\cbass\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

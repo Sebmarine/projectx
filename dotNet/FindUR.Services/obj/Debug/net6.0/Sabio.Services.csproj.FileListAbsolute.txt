@@ -1,0 +1,17 @@
+C:\SF.Code\MiVet\dotnet\Sabio.Services\bin\Debug\net6.0\Sabio.Services.deps.json
+C:\SF.Code\MiVet\dotnet\Sabio.Services\bin\Debug\net6.0\Sabio.Services.dll
+C:\SF.Code\MiVet\dotnet\Sabio.Services\bin\Debug\net6.0\Sabio.Services.pdb
+C:\SF.Code\MiVet\dotnet\Sabio.Services\bin\Debug\net6.0\Sabio.Data.dll
+C:\SF.Code\MiVet\dotnet\Sabio.Services\bin\Debug\net6.0\Sabio.Models.dll
+C:\SF.Code\MiVet\dotnet\Sabio.Services\bin\Debug\net6.0\Sabio.Data.pdb
+C:\SF.Code\MiVet\dotnet\Sabio.Services\bin\Debug\net6.0\Sabio.Models.pdb
+C:\SF.Code\MiVet\dotnet\Sabio.Services\obj\Debug\net6.0\Sabio.Services.csproj.AssemblyReference.cache
+C:\SF.Code\MiVet\dotnet\Sabio.Services\obj\Debug\net6.0\Sabio.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\SF.Code\MiVet\dotnet\Sabio.Services\obj\Debug\net6.0\Sabio.Services.AssemblyInfoInputs.cache
+C:\SF.Code\MiVet\dotnet\Sabio.Services\obj\Debug\net6.0\Sabio.Services.AssemblyInfo.cs
+C:\SF.Code\MiVet\dotnet\Sabio.Services\obj\Debug\net6.0\Sabio.Services.csproj.CoreCompileInputs.cache
+C:\SF.Code\MiVet\dotnet\Sabio.Services\obj\Debug\net6.0\Sabio.Services.csproj.CopyComplete
+C:\SF.Code\MiVet\dotnet\Sabio.Services\obj\Debug\net6.0\Sabio.Services.dll
+C:\SF.Code\MiVet\dotnet\Sabio.Services\obj\Debug\net6.0\refint\Sabio.Services.dll
+C:\SF.Code\MiVet\dotnet\Sabio.Services\obj\Debug\net6.0\Sabio.Services.pdb
+C:\SF.Code\MiVet\dotnet\Sabio.Services\obj\Debug\net6.0\ref\Sabio.Services.dll
